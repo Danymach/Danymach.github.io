@@ -1,3 +1,6 @@
-This is a RAG for Reverse Engineering made using Obsidian and Haystack
+This is a RAG for Reverse Engineering made using Obsidian and Langchain.
+
+I Will *Probably* be using flask for the backend  logic.
+The frontend will actually be mostly CSS. Nothing crazy. 
 
 THIS IS A WORK IN PROGRESS
