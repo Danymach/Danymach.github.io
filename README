@@ -4,3 +4,7 @@ I Will *Probably* be using flask for the backend  logic.
 The frontend will actually be mostly CSS. Nothing crazy. 
 
 THIS IS A WORK IN PROGRESS
+
+This project constitutes of two parts - a RAG for Reverse Engineering, and a chatbot. The chatbot's purpose is to help you answer any questions regarding Reverse Engineering, and even help you reverse engineer code.
+
+However, the whole database can be downloaded (Although not just yet).
