@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ch1 - Spin"
+title: "Spin"
 date: 2026-01-05
 ---
 

@@ -4,6 +4,6 @@ title: Machine Learning
 permalink: /ml/
 ---
 
-### [Projects](/ml/projects/)
+### [Tasks](/ml/projects/)
 
 ### [Notes](/ml/notes/)

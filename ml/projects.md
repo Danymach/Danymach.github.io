@@ -1,12 +1,10 @@
 ---
 layout: page
-title: ML Projects
+title: ML Tasks
 permalink: /ml/projects/
 ---
 
-Nothing to see here ;P
-
-Coming soon!
+### Here I will add any ML tasks I work on to learn!
 
 
 {% for project in site.projects_ml %}
