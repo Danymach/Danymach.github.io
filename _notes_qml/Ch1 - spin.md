@@ -1,7 +1,14 @@
-Before we even dive into QC, we need to understand some basics. The textbook starts describing what *spin* is. The simplest way to describe spin is the following: Assume we have a ball, and assume it is spinning in some direction. Except we do not have a ball, and it is not spinning. Now you know what Spin is!
+---
+layout: post
+title: "Ch1 - Spin"
+date: 2026-01-05
+---
+
+Before we even dive into Quantum Computing (QC), we need to understand some basics. The textbook starts describing what *spin* is. The simplest way to describe spin is the following: Assume we have a ball, and assume it is spinning in some direction. Except we do not have a ball, and it is not spinning. Now you know what Spin is!
 
 Now for real, assume we have an electron, and we shoot it through 2 magnets. Use the following image for reference:
-![[QC.png]]
+
+![image](/assets/images/qml/QC.png)
 
 The V shaped south magnet makes it act more strongly than the north magnet. So if the electron has north on top, it will go up towards the south magnet. If the electron has South on top, it will repel and go down. If the electron is horizontal, there would be no deflection.
 
@@ -25,13 +32,13 @@ In reality, if we have a clock it could be pointing at any hour. But hour quantu
 In the image shown with the magnets, the measurement of the electron is done when it passes through the magnets. So similar to our clock, we could say that the electron has spin in no direction (or both directions at the same time) until we measure it. Once we measure the spin, it goes to either N or S. Extremely weird. But this is a main idea in QC. The state the electron's spin is in before we measure it is called *superposition*. Meaning that the spin is in not a single direction, but rather kind of in both directions at the same time. 
 
 We could think of this as a vector. In this image, the electron's spin is South:
-![[Pasted image 20260105125112.png]]
+![image](/assets/images/qml/Pasted image 20260105125112.png)
 
 Here, the Spin is North:
-![[Pasted image 20260105125141.png]]
+![image](/assets/images/qml/Pasted image 20260105125141.png)
 
 But here, Spin has a component in North and a component in South:
-![[Pasted image 20260105125327.png]]
+![image](/assets/images/qml/Pasted image 20260105125327.png)
 
 ### Randomness
 The last thing I want to talk about in this chapter is randomness.

@@ -1,7 +1,7 @@
 title: Dani's Blog
 email: machadodaniel.alej@gmail.com
 description: >-
-  Small blog for my work.
+  Small blog for my work :D
 baseurl: ""
 url: "https://Danymach.github.io"
 theme: minima
@@ -10,19 +10,19 @@ theme: minima
 show_excerpts: true
 
 collections:
-  ml_projects:
+  projects_ml:
     output: true
     permalink: /ml/projects/:title/
   notes_ml:
     output: true
     permalink: /ml/notes/:title/
-  cyber_projects:
+  projects_cyber:
     output: true
     permalink: /cyber/projects/:title/
-  cyber_notes:
+  notes_cyber:
     output: true
     permalink: /cyber/notes/:title/
-  qml_projects:
+  projects_qml:
     output: true
     permalink: /qml/projects/:title/
   notes_qml:

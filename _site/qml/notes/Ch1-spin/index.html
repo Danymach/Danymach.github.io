@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Ch1 - Spin | Dani’s Blog</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Ch1 - Spin" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Before we even dive into Quantum Computing (QC), we need to understand some basics. The textbook starts describing what spin is. The simplest way to describe spin is the following: Assume we have a ball, and assume it is spinning in some direction. Except we do not have a ball, and it is not spinning. Now you know what Spin is!" />
+<meta property="og:description" content="Before we even dive into Quantum Computing (QC), we need to understand some basics. The textbook starts describing what spin is. The simplest way to describe spin is the following: Assume we have a ball, and assume it is spinning in some direction. Except we do not have a ball, and it is not spinning. Now you know what Spin is!" />
+<link rel="canonical" href="http://localhost:4000/qml/notes/Ch1-spin/" />
+<meta property="og:url" content="http://localhost:4000/qml/notes/Ch1-spin/" />
+<meta property="og:site_name" content="Dani’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-01-05T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Ch1 - Spin" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-01-05T00:00:00-05:00","datePublished":"2026-01-05T00:00:00-05:00","description":"Before we even dive into Quantum Computing (QC), we need to understand some basics. The textbook starts describing what spin is. The simplest way to describe spin is the following: Assume we have a ball, and assume it is spinning in some direction. Except we do not have a ball, and it is not spinning. Now you know what Spin is!","headline":"Ch1 - Spin","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/qml/notes/Ch1-spin/"},"url":"http://localhost:4000/qml/notes/Ch1-spin/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Dani&apos;s Blog" /></head>
+<body><header class="site-header">
+  <div class="wrapper">
+    <a class="site-title" rel="author" href="/">Dani&#39;s Blog</a>
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+          </svg>
+        </span>
+      </label>
+
+      <div class="trigger">
+        <a class="page-link" href="/">Home</a>
+        <a class="page-link" href="/ml/">ML</a>
+        <!-- <a class="page-link" href="/cyber/">Cyber</a>-->
+        <a class="page-link" href="/qml/">QML</a>
+        <a class="page-link" href="/about/">About</a>
+      </div>
+    </nav>
+  </div>
+</header><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Ch1 - Spin</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2026-01-05T00:00:00-05:00" itemprop="datePublished">Jan 5, 2026
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Before we even dive into Quantum Computing (QC), we need to understand some basics. The textbook starts describing what <em>spin</em> is. The simplest way to describe spin is the following: Assume we have a ball, and assume it is spinning in some direction. Except we do not have a ball, and it is not spinning. Now you know what Spin is!</p>
+
+<p>Now for real, assume we have an electron, and we shoot it through 2 magnets. Use the following image for reference:</p>
+
+<p><img src="/assets/images/qml/QC.png" alt="image" /></p>
+
+<p>The V shaped south magnet makes it act more strongly than the north magnet. So if the electron has north on top, it will go up towards the south magnet. If the electron has South on top, it will repel and go down. If the electron is horizontal, there would be no deflection.</p>
+
+<p>However, the results showed that the electron only went either up or down! Never towards the middle.</p>
+
+<p>This experiment was really used with silver atoms, but we’ll stay using electrons form simplicity. The idea behind spin is the same.</p>
+
+<p>Now, let’s define spin. We say an electron has <em>Spin N in the vertical direction</em> if it goes up, and has <em>Spin S in the vertical direction</em> if it goes down. All based on the setup in the image.</p>
+
+<p>Something interesting about spin, is that if we change the angle at which we have the magnets, the electrons will still go in either direction. Meaning that if we place the magnets horizontally instead of vertically, the electrons will go either left or right.</p>
+
+<h3 id="quantum-clock">Quantum Clock</h3>
+<p>The book gives an interesting example to understand spin, called the quantum clock. Image you have a clock to which you do not know the time, and you cannot see the time. Rather, you ask it whether it is pointing at some hour. The interesting thing, is that in real life the clock could be pointing at  ANY hour. The chance of you getting the hour correct is extremely low. However, in the quantum world, this does not work like this.</p>
+
+<p>When you ask a time, let’s say “is the hand pointing at 12”, you get either yes, it’s pointing at 12, or no, it’s pointing at 6. The complete opposite side. Those are the only 2 possible outcomes. If you ask it if it’s pointing at 3, the answer is either yes, or no, it’s pointing at 9. Again, the complete opposite.</p>
+
+<p>This brings an interesting idea. This is how spin works. But the direction of spin depends on which direction we ask. Let that sink in for a moment.</p>
+
+<p>In reality, if we have a clock it could be pointing at any hour. But hour quantum clock’s direction depends on the <em>question we ask</em>. We could call this making a <em>measurement</em>.</p>
+
+<p>In the image shown with the magnets, the measurement of the electron is done when it passes through the magnets. So similar to our clock, we could say that the electron has spin in no direction (or both directions at the same time) until we measure it. Once we measure the spin, it goes to either N or S. Extremely weird. But this is a main idea in QC. The state the electron’s spin is in before we measure it is called <em>superposition</em>. Meaning that the spin is in not a single direction, but rather kind of in both directions at the same time.</p>
+
+<p>We could think of this as a vector. In this image, the electron’s spin is South:
+<img src="/assets/images/qml/Pasted image 20260105125112.png" alt="image" /></p>
+
+<p>Here, the Spin is North:
+<img src="/assets/images/qml/Pasted image 20260105125141.png" alt="image" /></p>
+
+<p>But here, Spin has a component in North and a component in South:
+<img src="/assets/images/qml/Pasted image 20260105125327.png" alt="image" /></p>
+
+<h3 id="randomness">Randomness</h3>
+<p>The last thing I want to talk about in this chapter is randomness.</p>
+
+<p>We could think of the vector shown in the previous section, as a probability. When the vector is in S, the Spin has 100% probability to be in S. When the vector is in N, the spin has 100% probability to be in N. But when it is in superposition, meaning with some component in both spins, it has some probability to be in either spin.</p>
+
+<p>Let’s step back and look a the Quantum Clock example again, let’s see what happens when we ask it more than one question.</p>
+
+<p>So first, we ask “are you pointing to 12?” the answer is going to be yes or no with 50% probability.</p>
+
+<p>Then we change the angle, or in this case the hour. We ask “are you pointing to 3?”. Now in this case, we again get yes or no with 50% probability.</p>
+
+<p>However, what happens if we ask it “are you pointing to 12?” more than once in a row? We get that the first time, the answer is yes or no, with 50% probability. However, any subsequent answers will be the same answer as the 1st question with 100% probability.</p>
+
+<p>To tie this back to our vectors, it just means that before we ask the first question, the vector is in superposition. Once we ask the question, the vector goes to either N or S. Meaning it is now in one of those 2 states with 100% probability. If we keep asking the same question, the vector stays in that same state- it is in N or S for sure. And it is not going to change until we ask a <em>different</em> question - “are you pointing to 3?”.</p>
+
+  </div><a class="u-url" href="/qml/notes/Ch1-spin/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer">
+  <div class="wrapper">
+    <p>Small blog for my work :D</p>
+    <p><a href="mailto:machadodaniel.alej@gmail.com">machadodaniel.alej@gmail.com</a></p>
+  </div>
+</footer></body>
+
+</html>
