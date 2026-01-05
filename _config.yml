@@ -8,3 +8,23 @@ theme: minima
 
 # Show excerpts on homepage
 show_excerpts: true
+
+collections:
+  ml_projects:
+    output: true
+    permalink: /ml/projects/:title/
+  notes_ml:
+    output: true
+    permalink: /ml/notes/:title/
+  cyber_projects:
+    output: true
+    permalink: /cyber/projects/:title/
+  cyber_notes:
+    output: true
+    permalink: /cyber/notes/:title/
+  qml_projects:
+    output: true
+    permalink: /qml/projects/:title/
+  notes_qml:
+    output: true
+    permalink: /qml/notes/:title/
